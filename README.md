@@ -1,5 +1,5 @@
 # Stock-Market
-> This is a React-Redux app to store movies and place them in a different categories
+> This is a React-Redux app show orld stock market and get the details on individual stock
 ## Built With 
 REACT & REDUX 
 

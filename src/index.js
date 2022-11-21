@@ -1,0 +1,20 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { Provider } from 'react-redux';
+// import { store } from './store/store';
+import { BrowserRouter } from 'react-router-dom'
+import { SwitchRoutes } from './components/SwitchRoutes'
+import './index.css';
+
+const container = document.getElementById('root');
+const root = createRoot(container);
+
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+        <SwitchRoutes />
+    {/* <Provider store={store}>
+      </Provider> */}
+    </BrowserRouter>
+  </React.StrictMode>
+);
