@@ -1,7 +1,7 @@
 import React from 'react'
-import { NavBar } from './NavBar'
-import { App } from './App'
-import { Details } from './Details'
+import { NavBar } from '../components/NavBar'
+import { App } from '../components/App'
+import { Details } from '../components/Details'
 import { Route, Routes } from 'react-router-dom'
 
 export const SwitchRoutes = () => {
@@ -10,7 +10,8 @@ export const SwitchRoutes = () => {
       <NavBar />
         <Routes>
           <Route path='/Stock-Market' element={<App />} exact />
-          <Route path='/Details' element={<Details />} />
+          <Route path='/Details/:marketId' element={<Details />} />
+          <Route>404 not Found! </Route>
         </Routes>
     </>
   )

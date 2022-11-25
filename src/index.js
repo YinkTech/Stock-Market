@@ -1,9 +1,9 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
-// import { store } from './store/store';
+import { store } from './redux/store/store';
 import { BrowserRouter } from 'react-router-dom'
-import { SwitchRoutes } from './components/SwitchRoutes'
+import { SwitchRoutes } from './containers/SwitchRoutes'
 import './index.css';
 
 const container = document.getElementById('root');
@@ -11,10 +11,10 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter>   
+      <Provider store={store}>
         <SwitchRoutes />
-    {/* <Provider store={store}>
-      </Provider> */}
+      </Provider>
     </BrowserRouter>
   </React.StrictMode>
 );

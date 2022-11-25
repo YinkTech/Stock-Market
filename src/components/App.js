@@ -1,11 +1,12 @@
 import React from 'react';
+import { MarketList } from './../containers/MarketList';
 
-export function App() {
+
+export const App = () => {
   return (
     <div className="App">
-     hello home
+      <MarketList />
     </div>
   );
 }
-
 
