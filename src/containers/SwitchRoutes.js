@@ -12,7 +12,7 @@ export const SwitchRoutes = () => {
       <div className='d-md-flex'>
       <Links /> 
         <Routes>
-          <Route path='/' element={<App />} exact />
+          <Route path='/Stock-Market' element={<App />} exact />
           <Route path='/Details/:marketId' element={<Details />} />
           <Route>404 not Found! </Route>
         </Routes>

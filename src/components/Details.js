@@ -36,7 +36,7 @@ export const Details = () => {
               ) : (
           <div className='d-md-flex justify-content-between'>
             <div className='det-first-sec'>
-              <Link to='/'>
+              <Link to='/Stock-Market'>
                 <button className="btn text-info d-block fw-bolder fs-3 px-2 py-0 text-capitalize"> <i className="bi bi-skip-backward"></i> </button>
               </Link>
               <hr className='separator' />
