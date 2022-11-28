@@ -1,0 +1,27 @@
+@media screen and (max-width: 893px) {
+  .aside-detail {
+    word-wrap: break-word;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .det-first-sec {
+    width: 100%;
+  }
+
+  .aside-detail {
+    border: none;
+    border-top: 1px solid rgb(161, 161, 161);
+    padding: 10px;
+    width: 100%;
+    word-wrap: break-word;
+  }
+
+  .details-text {
+    width: 100%;
+  }
+
+  .trnds {
+    border-left: none;
+  }
+}

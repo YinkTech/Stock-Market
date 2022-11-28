@@ -1,0 +1,24 @@
+.details-img {
+  width: 100px;
+  height: 100px;
+}
+
+.det-first-sec {
+  width: 70%;
+}
+
+.aside-detail {
+  width: 30%;
+  word-wrap: break-word;
+  border-left: 1px solid rgb(161, 161, 161);
+}
+
+.details-text {
+  color: rgb(161, 161, 161);
+}
+
+.key-stat {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,38 @@
+body {background: #212529; color: #fff;}
+
+.nav {
+  width: 100%;
+  border-bottom: 1px solid rgb(161, 161, 161);
+  padding: 10px;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo:hover {
+  color: #adff2f;
+  transition: 0.5s ease-in-out;
+}
+
+.links {
+  width: 100px;
+  background: #222528;
+  border-right: 1px solid rgb(161, 161, 161);
+  width: fit-content;
+}
+
+.home {
+  color: #fff;
+  width: 70px;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home:hover {
+  color: #adff2f;
+  transition: 0.5s ease-in-out;
+}
