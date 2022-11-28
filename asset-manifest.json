@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.597f7bd6.css",
-    "main.js": "/static/js/main.96e5b724.js",
-    "index.html": "/index.html",
-    "main.597f7bd6.css.map": "/static/css/main.597f7bd6.css.map",
-    "main.96e5b724.js.map": "/static/js/main.96e5b724.js.map"
+    "main.css": "/Stock-Market/static/css/main.597f7bd6.css",
+    "main.js": "/Stock-Market/static/js/main.96e5b724.js",
+    "index.html": "/Stock-Market/index.html",
+    "main.597f7bd6.css.map": "/Stock-Market/static/css/main.597f7bd6.css.map",
+    "main.96e5b724.js.map": "/Stock-Market/static/js/main.96e5b724.js.map"
   },
   "entrypoints": [
     "static/css/main.597f7bd6.css",
