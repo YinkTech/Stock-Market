@@ -1,5 +1,5 @@
 # Stock-Market
-> This is a React-Redux app show orld stock market and get the details on individual stock
+> This is a React-Redux app that display all the crytopcurrency coins and display it details on a new page with trending coins list at the side 
 ## Built With 
 REACT & REDUX 
 
