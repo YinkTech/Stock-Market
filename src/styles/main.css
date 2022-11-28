@@ -1,17 +1,12 @@
 .lead-text {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   font-size: 50px;
-  font-size: bolder;
   padding-left: 10px;
   padding-right: 10px;
   font-family: 'Syncopate', sans-serif;
   text-transform: uppercase;
-  background: radial-gradient(
-    circle farthest-corner at center center,
-    white,
-    #adff2f
-  ) no-repeat;
+  background: radial-gradient(circle farthest-corner at center center, white,#adff2f) no-repeat;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -19,17 +14,12 @@
 
 .lead-sec-text {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   font-size: 22px;
-  font-size: bolder;
   padding: 10px;
   font-family: 'Syncopate', sans-serif;
   text-transform: uppercase;
-  background: radial-gradient(
-    circle farthest-corner at center center,
-    white,
-    #adff2f
-  ) no-repeat;
+  background: radial-gradient(circle farthest-corner at center center, white,#adff2f) no-repeat;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -58,7 +48,7 @@
 .market-row:hover {
   transition: 0.5s ease-in-out;
   border-radius: 10px;
-  border-image: linear-gradient(45deg,red,#adff2f) 10;
+  border-image: linear-gradient(45deg, red, #adff2f) 10;
 }
 
 .market-cont {
