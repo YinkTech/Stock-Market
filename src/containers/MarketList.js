@@ -23,7 +23,6 @@ export const MarketList = () => {
   };
   useEffect(() => {
     fetchMarket();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

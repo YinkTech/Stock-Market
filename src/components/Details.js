@@ -26,7 +26,6 @@ export const Details = () => {
     return () => {
       dispatch(removeSelectedMarket());
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [marketId])
 
   return (

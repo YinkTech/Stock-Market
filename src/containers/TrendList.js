@@ -16,7 +16,6 @@ export const TrendList = () => {
   };
   useEffect(() => {
     fetchTrends();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
