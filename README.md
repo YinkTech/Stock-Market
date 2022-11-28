@@ -6,8 +6,11 @@ REACT & REDUX
 ## Live Demo
 
 [Github]()
-## Stock-Market Page
-![screenshot](./src/img/shot.png)
+## Stock-Market Home Page
+![screenshot](./src/img/home.png)
+
+## Stock-Market Details Page
+![screenshot](./src/img/details.png)
 
 # Getting Started with Create React App
 
