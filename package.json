@@ -1,6 +1,7 @@
 {
   "name": "stock-market",
   "version": "0.1.0",
+  "homepage": "https://yinktech.github.io/Stock-Market",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.0",
@@ -19,6 +20,7 @@
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
+    "react-test-renderer": "^18.2.0",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.4.2",
     "web-vitals": "^2.1.4"
@@ -28,7 +30,7 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!axios)/\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -51,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-test-renderer": "^18.0.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "redux-devtools-extension": "^2.13.9"
   }

@@ -4,7 +4,7 @@ import { MarketList } from './../containers/MarketList';
 import './../styles/main.css'
 
 
-export const App = () => {
+const App = () => {
   return (
     <div className="App d-md-flex">
       <MarketList className=" p-2" />
@@ -13,5 +13,6 @@ export const App = () => {
   );
 }
 
+export default App;
 
        

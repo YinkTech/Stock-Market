@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import React, { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
+import axios from 'axios';
 import { selectedMarket, removeSelectedMarket } from '../redux/actions/action';
-import './../styles/details.css'
+import './../styles/details.css';
 
-export const Details = () => {
+const Details = () => {
   const market = useSelector((state) => state.selectedMarketReducer);
   const {image, name, symbol, sentiment_votes_up_percentage, sentiment_votes_down_percentage, market_cap_rank, last_updated, community_score, liquidity_score, public_interest_score, genesis_date, description, community_data, links} = market;
   const { marketId } = useParams();
@@ -139,3 +139,5 @@ export const Details = () => {
     </div>
   );
 };
+
+export default Details;

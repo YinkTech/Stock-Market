@@ -5,7 +5,7 @@ REACT & REDUX
 
 ## Live Demo
 
-[Github]()
+[Github](https://yinktech.github.io/Stock-Market)
 ## Stock-Market Home Page
 ![screenshot](./src/img/home.png)
 

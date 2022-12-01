@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import axios from 'axios';
 import { useDispatch } from 'react-redux'
-import { Trends } from '../components/Trends';
+import Trends from '../components/Trends';
 import { setTrends } from '../redux/actions/action';
 
 export const TrendList = () => {

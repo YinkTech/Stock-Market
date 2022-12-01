@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import axios from 'axios';
 import { useDispatch } from 'react-redux'
-import { Market } from '../components/Market';
+import Market from '../components/Market';
 import { setMarket } from '../redux/actions/action';
 import Filter from '../components/Filter';
 

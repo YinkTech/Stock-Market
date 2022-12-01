@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/navBar.css'
 
-export const NavBar = () => {
+const NavBar = () => {
   return (
     <>
       <div className='nav justify-content-center sticky-top bg-dark text-decoration-none text-white'>
@@ -11,3 +11,5 @@ export const NavBar = () => {
    </>
   );
 };
+
+export default NavBar;

@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
-export const Trends = () => {
+const Trends = () => {
   const coins = useSelector((state) => state.trendReducer.coin);
   const renderTlist = coins.map((coin) => {
     const formatToCurr = amount => {
@@ -34,5 +34,5 @@ export const Trends = () => {
   return <>{renderTlist}</>
 };
 
-
+export default Trends;
 
