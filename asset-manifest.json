@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Stock-Market/static/css/main.597f7bd6.css",
-    "main.js": "/Stock-Market/static/js/main.21ce7bed.js",
+    "main.js": "/Stock-Market/static/js/main.90b11911.js",
     "index.html": "/Stock-Market/index.html",
     "main.597f7bd6.css.map": "/Stock-Market/static/css/main.597f7bd6.css.map",
-    "main.21ce7bed.js.map": "/Stock-Market/static/js/main.21ce7bed.js.map"
+    "main.90b11911.js.map": "/Stock-Market/static/js/main.90b11911.js.map"
   },
   "entrypoints": [
     "static/css/main.597f7bd6.css",
-    "static/js/main.21ce7bed.js"
+    "static/js/main.90b11911.js"
   ]
 }
