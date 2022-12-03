@@ -55,10 +55,12 @@ const Details = () => {
                       Key <span className='def-color'>Statistics</span> 
                     </h3>
                     <div className='text-center p-2'>
-                      <div className='mb-4 mx-3 market-row p-3 shadow text-success'>
+
+                    <div className='mb-4 mx-3 market-row p-3 shadow text-success'>
                         <span className='info'>sent votes up </span>
                         <span>{sentiment_votes_up_percentage}</span>
                       </div>
+                      
                       <div className=' mb-4 mx-3 market-row p-3 shadow text-danger'>
                         <span className='info d-inline-block'>sent votes down </span>
                         <span>{sentiment_votes_down_percentage}</span>

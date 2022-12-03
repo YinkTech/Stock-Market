@@ -9,9 +9,9 @@ export const MarketList = () => {
   const dispatch = useDispatch();
 
   const handleFilter = (pageNumber) => {
-    dispatch(fetchMarket(pageNumber));
+    return (fetchMarket(pageNumber));
   };
-  
+
 
   const fetchMarket = async (pageNumber, pageSize=50) => {
     const response = await axios
