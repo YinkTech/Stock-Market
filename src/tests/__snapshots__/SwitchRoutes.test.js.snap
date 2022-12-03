@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component Snapshot test 1`] = `
+Array [
+  <div
+    className="nav justify-content-center sticky-top bg-dark text-decoration-none text-white"
+  >
+    <div
+      className="d-flex align-items-center"
+    >
+       
+      <i
+        className="bi bi-cash-coin fs-2 px-3"
+      />
+       
+      <a
+        className="logo text-uppercase fs-2"
+        href="/Stock-Market"
+        onClick={[Function]}
+      >
+         Stock Market 
+      </a>
+    </div>
+  </div>,
+  <div
+    className="d-md-flex"
+  >
+    <div
+      className="links d-none d-sm-flex p-2"
+      id="my-aside"
+    >
+      <a
+        className="home"
+        href="/Stock-Market"
+        onClick={[Function]}
+      >
+        <i
+          className="bi bi-house me-1"
+        />
+        Home
+      </a>
+    </div>
+  </div>,
+]
+`;

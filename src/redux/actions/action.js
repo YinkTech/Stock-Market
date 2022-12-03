@@ -14,6 +14,13 @@ export const selectedMarket = (market) => {
   };
 };
 
+export const setTrends = (trend) => {
+  return {
+    type: ActionTypes.SET_TRENDS,
+    payload: trend,
+  };
+};
+
 export const removeSelectedMarket = () => {
   return {
     type: ActionTypes.REMOVE_SELETED_MARKET,

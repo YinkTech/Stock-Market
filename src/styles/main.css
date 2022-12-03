@@ -1,0 +1,68 @@
+.lead-text {
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Syncopate', sans-serif;
+  text-transform: uppercase;
+  background: radial-gradient(circle farthest-corner at center center, white, #adff2f) no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lead-sec-text {
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+  padding: 10px;
+  font-family: 'Syncopate', sans-serif;
+  text-transform: uppercase;
+  background: radial-gradient(circle farthest-corner at center center, white, #adff2f) no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.market-set {
+  display: inline-flex;
+}
+
+.def-color {
+  color: #adff2f;
+}
+
+.text-color {
+  justify-content: space-between;
+  color: #adff2f;
+}
+
+.market-row {
+  border: 0.01rem solid white;
+  border-radius: 10px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.market-row:hover {
+  transition: 0.5s ease-in-out;
+  border-radius: 10px;
+  border-image: linear-gradient(45deg, red, #adff2f) 10;
+}
+
+.market-cont {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 170px;
+}
+
+.coin-img {
+  height: 50px;
+  width: 50px;
+}
+
+.trnds {
+  border-left: 1px solid rgb(161, 161, 161);
+}

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter component Snapshot test 1`] = `
+<div
+  className="mb-3 dropdown"
+>
+  <button
+    aria-expanded={false}
+    className="dropdown bg-success dropdown-toggle btn btn-primary"
+    disabled={false}
+    id="react-aria824112803-1"
+    onClick={[Function]}
+    type="button"
+  >
+    Page Filter
+  </button>
+</div>
+`;

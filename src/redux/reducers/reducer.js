@@ -4,6 +4,10 @@ const inistialState = {
   markets: [],
 };
 
+const defaultState = {
+  coin: [],
+};
+
 export const marketReducer = (state = inistialState, { type, payload }) => {
   switch (type) {
     case ActionTypes.SET_MARKETS:
@@ -13,6 +17,14 @@ export const marketReducer = (state = inistialState, { type, payload }) => {
   };
 };
 
+export const trendReducer = (state = defaultState, { type, payload }) => {
+  switch (type) {
+    case ActionTypes.SET_TRENDS:
+      return {...state, coin:payload};  
+    default:
+      return state;
+  };
+};
 
 export const selectedMarketReducer = (state = {}, { type, payload }) => {
   switch (type) {
